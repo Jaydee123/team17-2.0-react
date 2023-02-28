@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    ports:
+      - 3000:3000
+    image: ${DOCKER_REGISTRY-}react-app-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
