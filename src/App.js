@@ -8,6 +8,9 @@ function App() {
         <p>
           Hello world.
         </p>
+        <p>
+          Jade is the best, Dec is lame.
+        </p>
       </header>
     </div>
   );
