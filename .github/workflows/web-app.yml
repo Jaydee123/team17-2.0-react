@@ -2,14 +2,10 @@ name: Build and deploy team17-2.0-react to an Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: team17-2point0-react
+
 on:
   push:
-    branches:
-      - "main"
-  workflow_dispatch:
-
-permissions:
-  contents: read
+    branches: [ "main" ]
 
 jobs:
   build:
